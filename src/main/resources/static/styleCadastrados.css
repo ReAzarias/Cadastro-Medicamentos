@@ -1,0 +1,14 @@
+.medicamento-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.medicamento-card h3 {
+    margin-top: 0;
+}
+
+.medicamento-card p {
+    margin-bottom: 5px;
+}
