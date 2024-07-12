@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const formData = new FormData(form);
         const medicamento = {
             nome: formData.get('nome'),
-            descricao: formData.get('descricao')
+            descricao: formData.get('descricao'),
+            dosagem: formData.get('dosagem'),
+            horario: formData.get('horario')
+
         };
 
         fetch('/medicamentos', {

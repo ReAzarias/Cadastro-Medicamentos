@@ -3,9 +3,9 @@ body {
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: c;
     height: 100vh;
-    margin: 0;
+    margin: 100;
 }
 
 .container {
